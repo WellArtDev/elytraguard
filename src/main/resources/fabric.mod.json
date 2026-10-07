@@ -1,0 +1,23 @@
+{
+  "authors": [
+    "WellArtDev"
+  ],
+  "depends": {
+    "fabric-api": "*",
+    "fabricloader": ">=0.19.0",
+    "java": ">=25",
+    "minecraft": "~26.2"
+  },
+  "description": "Keeps an eye on your elytra's durability near the crosshair and warns you before it snaps mid-flight.",
+  "entrypoints": {
+    "client": [
+      "com.wellartdev.elytraguard.ElytraGuard"
+    ]
+  },
+  "environment": "client",
+  "id": "elytraguard",
+  "license": "MIT",
+  "name": "ElytraGuard",
+  "schemaVersion": 1,
+  "version": "${version}"
+}
